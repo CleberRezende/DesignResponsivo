@@ -1,0 +1,268 @@
+/*============ INICIO ============*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*============ CABEÇALHO ============*/
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    float: right;
+    background: url(../imagem/logo-mobile.png) center center/56px no-repeat;
+    font-size: 0;
+}
+
+.btn-menu {
+    width: 52px;
+    height: 52px;
+    float: left;
+    text-align: center;
+    color: #FFF;
+    border-radius: 40px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+/*============ MENU ============*/
+.menu {
+    display: none;
+    width: 0;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 5px 5px 10px #000;
+    top: 0;
+    left: 0;
+    transition: all 2.5s;
+}
+
+.menu.mostrar {
+    display: inline;
+    width: 300px;
+    transition: all 2.5s;
+}
+
+.btn-close {
+    font-size: 1.5em;
+    color: #FFF;
+    cursor: pointer;
+    float: right;
+    margin-right: 6%;
+    margin-top: 5%;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li {
+    padding: 1.5%;
+}
+
+.menu li a {
+    font-size: 2em;
+    color: #FFF;
+    padding: 1.5% 3%;
+    transition: 0.6s;
+}
+
+.menu li a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/*============ BANNER ============*/
+.banner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background: url(../imagem/bg.jpg) no-repeat fixed;
+}
+
+.title {
+    width: 100%;
+}
+
+.title h2 {
+    font-size: 2.5em;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.title h3 {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.buttons {
+    width: 100%;
+}
+
+.btn-cadastrar {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: #130400;
+    margin-top: 2%;
+}
+
+.buttons i {
+    float: right;
+}
+
+.btn-sobre {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: #130400;
+    margin-top: 2%;
+}
+
+/*============ SERVIÇOS ============*/
+.servicos {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.servico {
+    width: 100%;
+    background-color: #FFF;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+    padding: 3%;
+}
+
+.servico img {
+    border-radius: 7px 7px 0 0;
+}
+
+.inner {
+    padding-top: 15px;
+}
+
+.inner a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #130400;
+    font-weight: 700;
+}
+
+.inner h4 {
+    font-size: 1.2em;
+    color: #130400;
+    margin-top: 2%;
+}
+
+.inner p{
+    margin-top: 3%;
+    color: #130400;
+    line-height: 1.5em;
+}
+
+
+/*============ NEWS LETTER ============*/
+.newsletter{
+    width: 100%;
+    float:left;
+    text-align: center;
+    padding: 3% 4%;
+    background-color: #130400;
+}
+
+.newsletter h2{
+    color:#FFF;
+    font-weight: 700;
+}
+
+.newsletter h3{
+    color: #FFF;
+}
+
+.newsletter form{
+    margin-top: 2%;
+}
+
+.newsletter input{
+    width: 100%;
+    background-color: rgba(255,255,255, 0.3);
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.newsletter button{
+    width: 100%;
+    background-color: #FFF;
+    color: #130400 ;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
